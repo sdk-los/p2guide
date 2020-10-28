@@ -457,6 +457,10 @@ ul.leftNav li:last-child a {
 .main img:hover {
 	border: 10px solid #a45f93;
 }
+td img {
+	
+}
+
 /*Подвал*/
 .footer {
 
