@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Portal 2 SAR" />
+    <meta property="og:image" content="images/icon.jpg" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media-queries.css">
+    <title>Portal 2 Source Auto Record</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="headerContent">
+                <div class="logo"><a href="https://sdk-los.github.io/p2guide/index.html">P2 SR Guide</a></div>
+                <ul class="nav">
+                    <li><a href="about.html">О сайте</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="leftCol">
+                <ul class="leftNav">
+                    <li><a href="forBeginnersMain.html">Для начинающих</a></li>
+                    <li><a href="p2mapsMain.html">Список карт</a></li>
+                    <li><a href="#">Режимы игры</a></li>
+                    <li><a href="#">Трюки</a></li>
+                    <li><a href="#">Глитчи</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h1>Source Auto Record</h1>
+                <p>Source Auto Record(SAR) - это плагин, который разработал <a href="https://github.com/NeKzor">NeKz</a>. Он добавляет множество полезных комманд и улучшений.</p>
+                <h2>Установка</h2>
+                <div class="row">
+                    <div class="col">
+                        <ol>
+                            <li>Последнюю версию можно скачать <a href="https://github.com/Blenderiste09/SourceAutoRecord/releases/tag/pre-1.11-V2">здесь</a>. Нужен файл sar.dll</li>
+                            <li>Поместить файл в папку steam/steamapps/common/Portal 2/portal2</li>
+                            <li>Перезапустите игру если она была запущена</li>
+                            <li>После загрузки игры введите в консоль - plugin_load sar</li>
+                        </ol>
+                    </div>
+                </div>
+                <h2>Команды</h2>
+                <h3>Уменьшение времени загрузки уровней</h3>
+                <p>Эти команды отключают анимацию и визуальные эффекты во время загрузки уровней, что ускоряет загрузки.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>ui_loadingscreen_fadein_time 0; ui_loadingscreen_mintransition_time 0; ui_loadingscreen_transition_time 0</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Отключение всплывающего окна в режиме испытаний</h3>
+                <p>Эта команда автоматически закрывает всплывающее окно в режиме испыытаний.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_disable_challenge_stats_hud 1</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Демо-заись</h3>
+                <p>Эта команда автоматически начинает запись demo-файлов на кажом уровне.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_autorecord 1</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Смещение времени для Container Ride Save</h3>
+                <p>Эта команда смещает время таймера, для учета пропущенноой кат-сцены в самом начале игры.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_speedrun_offset 16868</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Сброс времени</h3>
+                <p>Эта команда сбрасывает время таймера</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_speedrun_reset</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Учет времени во время паузы</h3>
+                <p>Эта команда позволяет не учитывать время во время паузы, если значение равно 0, и наоборот.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_speedrun_time_pauses 0</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>Предотвращение немедленного запуска таймера</h3>
+                <p>Эта команда предотвращает немедленный запуск таймера при загрузке на уровень.</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li>sar_speedrun_autostart 0</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Изображения-->
+                <!--Списки и определения-->
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Footer content <a href="#">Link footer</a></p>
+        </div>
+    </div>
+    <script src="css3-mediaqueries.js"></script>
+</body>
+</html>
