@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Portal 2 Useful ConsoleS Commands" />
+    <meta property="og:image" content="images/icon.jpg" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media-queries.css">
+    <title>Часто используемые команды</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="headerContent">
+                <div class="logo"><a href="https://sdk-los.github.io/p2guide/index.html">P2 SR Guide</a></div>
+                <ul class="nav">
+                    <li><a href="about.html">О сайте</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="leftCol">
+                <ul class="leftNav">
+                    <li><a href="forBeginnersMain.html">Для начинающих</a></li>
+                    <li><a href="p2mapsMain.html">Список карт</a></li>
+                    <li><a href="gamemodesMain.html">Режимы игры</a></li>
+                    <li><a href="tricksMain.html">Трюки</a></li>
+                    <li><a href="glitchesMain.html">Glitches</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h1>Часто используемые консольные команды</h1>
+                <p>Позволяет узнать позицию на карте(pos), направление камеры(ang), скорость(vel) в формате x,y,z;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>cl_showpos (0 1)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Позволяет сделать жест в воздухе после прыжка;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>taunt</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Позволяет перезагрузить текущий уровень;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>restart_level</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Включает/отключает освещение. Используется на плохо освещенных картах;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>"incrementvar mat_ambient_light_r 0 0.05 0.05;incrementvar mat_ambient_light_g 0 0.05 0.05; incrementvar mat_ambient_light_b 0 0.05 0.05"</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Отвечает за показ экрана напарника. Чтобы он показывался всегда, назначьте его на клавишу w;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>+remote_view</i></li>
+                            <li><i>bind "w" "+forward;+remote_view"</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Включает ограничение fps. Значение меньше 30 и больше 999 запрещено правилами speedrun-сообщества;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>fps_max (от 30 до 999)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Отключает/включает помощь при падении в портал;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>sv_player_funnel_into_portals (0 1)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Позволяет поменять уровень на выбранный, вы должны находиться в игре. В кооперативной игре уровень менять может только хост(Atlas);</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>changelevel map_name</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>При значении 0 - позволит движку визуализировать структуры уровней за пределами их пространства;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>r_portal_use_pvs_optimization (0 1)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Позволяет двигаться, как только уровень загрузился, вместо того, чтобы застрять на ~0,5 секунды;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>developer (0 1 2)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Задает количество консольных линий, которые отображаются на экране. Значение 8 - по умолчанию, 0 - не отображает. Используется с командой <i>developer</i>;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>contimes (0-8)</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Завершает показ кат-сцены;</p>
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li><i>stopvideos</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Изображения-->
+                <!--Списки и определения-->
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Footer content <a href="#">Link footer</a></p>
+        </div>
+    </div>
+    <script src="css3-mediaqueries.js"></script>
+</body>
+</html>

@@ -30,7 +30,7 @@ body {
 }
 
 a {
-	color: #ff8de3;
+	color: white;
 	text-decoration: underline;
 }
 
@@ -38,8 +38,8 @@ p {
 	margin-bottom: 10px;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color: white;
+h1, h2, h3, h4, h5, h6 {
+	color: #18DCFF;
 	line-height: normal;
 }
 
