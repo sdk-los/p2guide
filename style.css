@@ -36,16 +36,19 @@ a {
 
 p {
 	margin-bottom: 10px;
+	text-indent:20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #18DCFF;
 	line-height: normal;
+	text-align: center;
+	padding-bottom:10px;
 }
 
 h1 {
 	font-size: 21px;
-	text-align:center;
+	
 }
 
 h2 {
