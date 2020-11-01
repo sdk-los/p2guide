@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <meta property="og:title" content="Portal 2 Jump Gesturing" />
+    <meta property="og:title" content="Portal 2 Reset Porgress" />
     <meta property="og:image" content="images/icon.jpg" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="media-queries.css">
-    <title>Jump Gesturing</title>
+    <title>Сброс игрового прогресса</title>
 </head>
 <body>
     <!-- Yandex.Metrika counter -->
@@ -47,46 +47,46 @@
                 </ul>
             </div>
             <div class="main">
-                <h1>Jump Gesturing</h1>
+                <h1>Сброс игрового прогресса</h1>
                 <div class="row">
                     <div class="col">
                         <ul>
-                            <li>Позволяет прервать анимацию принудительных жестов на некоторых картах</li>
+                            <li>Позволяет сбросить или восстановить(после восстановления все достижения будут доступны, все карты пройдены) прогресс уровней и жестов</li>
+                            <li>Прогресс шагов не сбросится</li>
+                            <li>Достаточно чтобы эти действия совершил только один игрок. Его действия повлияют и на второго игрока</li>
                             <li>Работает только в кооперативном режиме.</li>
                         </ul>
                     </div>
                 </div>
+                <h2>Сбросить</h2>
                 <div class="row">
                     <div class="col">
                         <ol>
-                            <li>Перед заходом в тригер с жестом используйте команду - <i>taunt</i></li>
+                            <li>Запустить совместную игру</li>
+                            <li>Ввести в консоль: <p><i>mp_mark_all_maps_incomplete</i> - сбрасывает прогресс уровней</p><p><i>mp_lock_all_taunts</i> - сбрасывает прогресс жестов</p></li>
+                            <li>Перезапустите совместную игру.</li>
                         </ol>
                     </div>
                 </div>
+                <h2>Восстановить</h2>
                 <div class="row">
                     <div class="col">
-                        <ul>
-                            <li>Эта команда работает только когда вы находитесь в воздухе (например прыгаете), поэтому для удобства назначьте ее на какую-нибудь клавишу</li>
-                            <li>Еще используется для быстрой активации кат-сцены на карте: Vault Entrance</li>
-                            <li>Можно обойтись без этой команды, взяв какой-нибудь предмет, например куб.</li>
-                        </ul>
+                        <ol>
+                            <li>Чтобы восстановить прогресс уровней введите команду:<p><i>mp_mark_all_maps_complete</i></p></li>
+                            <li>
+                                Чтобы восстановить прогресс жестов, нужно поочередно вводить каждую команду:
+                                <p><i>mp_earn_taunt highFive</i></p>
+                                <p><i>mp_earn_taunt laugh</i></p>
+                                <p><i>mp_earn_taunt robotDance</i></p>
+                                <p><i>mp_earn_taunt rps</i></p>
+                                <p><i>mp_earn_taunt trickfire</i></p>
+                                <p><i>mp_earn_taunt teamhug</i></p>
+                                <p><i>mp_earn_taunt teamtease</i></p>
+                                <p><i>mp_earn_taunt smallwave</i></p>
+                            </li>
+                        </ol>
                     </div>
                 </div>
-                <p>Используется на следующих картах: </p>
-                <div class="row">
-                    <div class="col">
-                        <ul>
-                            <li>Calibration Course</li>
-                            <li>На картах lobby во время перехода на 2 и 3 курс если вы сбросили прогресс</li>
-                            <li>Rat Maze</li>
-                            <li>Catapults</li>
-                            <li>Bridge Testing</li>
-                            <li>Funnel Laser</li>
-                        </ul>
-                    </div>
-                </div>
-                <h2>Видео</h2>
-                <iframe width="311" height="188" src="https://www.youtube.com/embed/U5kA3SieXrA?start=7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="footer">
