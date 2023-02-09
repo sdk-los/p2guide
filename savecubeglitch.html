@@ -15,17 +15,20 @@
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
         })
             (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(68890294, "init", {
+        ym(92383615, "init", {
             clickmap: true,
             trackLinks: true,
-            accurateTrackBounce: true
+            accurateTrackBounce: true,
+            webvisor: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/68890294" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/92383615" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <div class="wrapper">
         <div class="header">
@@ -85,6 +88,13 @@
         </div>
         <div class="footer">
             <p>&copy; MEL</p>
+            <!-- Yandex.Metrika informer -->
+            <a href="https://metrika.yandex.ru/stat/?id=92383615&amp;from=informer"
+               target="_blank" rel="nofollow">
+                <img src="https://informer.yandex.ru/informer/92383615/3_1_2020FFFF_0000FFFF_1_uniques"
+                     style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" />
+            </a>
+            <!-- /Yandex.Metrika informer -->
         </div>
     </div>
     <script src="css3-mediaqueries.js"></script>
